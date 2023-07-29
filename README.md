@@ -1,2 +1,2 @@
-# usef
+# USEF
 Unsupervised Structural Embedding Framework
