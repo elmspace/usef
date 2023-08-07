@@ -16,9 +16,11 @@ pip install git+https://github.com/elmspace/usef.git
   * scikit-learn==1.3.0 
 
 ### Code Sample
-from usef.usef import USEF
+You can define all variables and file-paths using the config file, which you can pass to the USEF class during instantiation.
 
 ```
+from usef.usef import USEF
+
 graph_size = 500
 
 config = {}
@@ -32,4 +34,16 @@ config["node_features"] = ["nf_degree_centrality"]
 
 obj = USEF(config)
 res = obj.run()
+```
+## Config Parameters
+#### node_features_path
+Is the path to the csv file containing the node-features. A sample node-feature csv is located at:
+```
+/usef/sample_files/nf.csv
+```
+
+#### embedding_path
+Is the path to the csv file containing the embedding. A sample embedding csv is located at:
+```
+/usef/sample_files/emb.csv
 ```
