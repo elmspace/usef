@@ -13,7 +13,7 @@ setup(
     author_email="ash.dehghan@gmail.com",
     license='BSD-3',
     packages=find_packages(),
-    install_requires=['pandas==2.0.3', 'networkx==3.1', 'numpy==1.25.2', 'scipy==1.11.1', 'scikit-learn'],
+    install_requires=['pandas==2.0.3', 'networkx==3.1', 'numpy==1.25.2', 'scipy==1.11.1', 'scikit-learn==1.3.0'],
     keywords='embedding',
     classifiers= [
         "Development Status :: Alpha",
