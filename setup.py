@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = 'Unsupervised Structural Embedding Framework'
 LONG_DESCRIPTION = 'An unsupervised framework for exploring and evaluating node structural embedding of graphs'
 
