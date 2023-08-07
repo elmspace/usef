@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Unsupervised Structural Embedding Framework'
 LONG_DESCRIPTION = 'An unsupervised framework for exploring and evaluating node structural embedding of graphs'
 
@@ -13,7 +13,7 @@ setup(
     author_email="ash.dehghan@gmail.com",
     license='BSD-3',
     packages=find_packages(),
-    install_requires=['pandas', 'networkx', 'numpy', 'scipy', 'sklearn'],
+    install_requires=['pandas==2.0.3', 'networkx==3.1', 'numpy==1.25.2', 'scipy==1.11.1', 'scikit-learn'],
     keywords='embedding',
     classifiers= [
         "Development Status :: Alpha",
